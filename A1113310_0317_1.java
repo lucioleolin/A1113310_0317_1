@@ -13,7 +13,7 @@ public class A1113310_0317_1 {
         int[][] isArray = new int[n][m];
         for(int i=0; i<n;i++){
             for(int j=0; j<m; j++){
-                isArray[i][j]=(i+i)*(j+1);
+                isArray[i][j]=(i+1)*(j+1);
              }
         }
         for(int[] array : isArray){
